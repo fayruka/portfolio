@@ -13,12 +13,3 @@ function close(){
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
-
-
-function validateForm() {
-    var x = document.forms["myForm"]["firstname"].value;
-    if (x == "" || x == null) {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
